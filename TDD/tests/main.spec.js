@@ -3,7 +3,7 @@
 describe('Main', function() {
   describe('Method A', function() {
     context('Case 1', function() {
-      it('should happen blablabla', function(){
+      it.skip('should happen blablabla', function(){ //pula esse teste
         // espera que aconteça
         // Entra de dados / método sum(2,2)
         // Espera retornar (4) => true | (3) => false => broken test
@@ -11,11 +11,12 @@ describe('Main', function() {
     });
 
     context('Case 2', function() {
-      // only para rodar só um bloco
+    //context.only('Case 2', function() {  // only para rodar só um bloco
       it('should happen blabla', function() {
         // espera que aconteça
         // Entra de dados / método sum(2,2)
         // Espera retornar (4) => true | (3) => false => broken test
+        throw new Error("Just an error")
       });
 
       it('should happen blhee', function() {
