@@ -1,4 +1,3 @@
-import * as R from 'ramda';
 
 import { union as juntaTudo, uniq as soOsMesmos } from 'ramda';
 
