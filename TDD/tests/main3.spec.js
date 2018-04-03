@@ -1,3 +1,5 @@
+/*
+
 var expect = require('chai').expect;
 
 describe('Main', function() {
@@ -58,3 +60,5 @@ describe('Main', function() {
 // test 2
 // afterEach
 // after
+
+*/
