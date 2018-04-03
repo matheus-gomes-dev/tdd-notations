@@ -1,1 +1,3 @@
+npm test (executar rotina de testes)
 npm test -- --bail (pára após encontrar um erro)
+npm run test:tdd (fica executando no background, alterando automaticamente após mudanças. Foi incluido --watch no package.json para esse script)

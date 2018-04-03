@@ -1,3 +1,5 @@
+/*
+
 describe('Main', function() {
   var arr;
 
@@ -41,3 +43,5 @@ describe('Main', function() {
 // test 2
 // afterEach
 // after
+
+*/

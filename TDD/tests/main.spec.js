@@ -1,3 +1,5 @@
+/*
+
 // --bail no console para parar no primeiro fail
 
 describe('Main', function() {
@@ -31,3 +33,5 @@ describe('Main', function() {
 
   });
 });
+
+*/
